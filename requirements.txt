@@ -1,0 +1,14 @@
+ipykernel
+ipython
+python-dotenv
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+torch
+torchmetrics
+joblib
+hydra-core
