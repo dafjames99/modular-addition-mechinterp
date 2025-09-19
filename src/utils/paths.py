@@ -39,8 +39,3 @@ PATHS: Paths = {
     "latex_figures": BASE / "latex/figures",
     "latex_tables": BASE / "latex/tables",
 }
-
-def get_path(name: str) -> Path:
-    if name not in PATHS:
-        raise KeyError(f"Path '{name}' not defined in PATHS.")
-    return PATHS[name]
